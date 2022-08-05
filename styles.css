@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+body{
+    background-image: url(images/11.jpg);
+    background-size: cover;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+header .nav-bar a{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;    
+}
+header .nav-bar a:hover{
+    color: #FFC000	;
+    transition: 0.5s ease;
+    font-size: 1.4em;
+
+}
+.search{
+    width: 330px;
+    float: left;
+
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    border-right: none;
+    float: left;
+    padding: 10px;
+    background: transparent;
+    margin-top: 10px;
+    font-size: 16px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #FFC000;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-left: none;
+}
+.srch:focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+span{
+    color: #FFC000;
+    font-size: 1.5em;
+}
+.content{
+   width: 600px;
+   height: 350px;
+   padding-top: 20px;
+   padding-left: 10px;
+   padding-right: 50px;
+   margin-right: 250px;
+   margin-top: 100px;
+   font-size: 1.3em;
+   color: white;
+   border-radius: 10px;
+   background: linear-gradient(to top, rgba(0,0,0,0.5)25%,rgba(0,0,0,0.5)25%);
+
+}
+section .content .contact{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #FFC000;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+section form .contact{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+section .content .contact a{
+    text-decoration: none;
+    color:white;
+}    
+.content .pargraph{
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif ; 
+    letter-spacing: 1.8px;
+    line-height: 30px;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+form{
+    color: white;
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    margin-top: 80px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 10px;
+    padding: 25px;
+}
+input{
+    width: 220px;
+    text-align: left;
+    font-size: 20px;
+    padding: 4px;
+    margin-right: -10px;
+    flex-direction:column;
+    float: right;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.sign{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: #FFC000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+form .contact{
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    color: #FFC000;
+    margin-top: 10px;
+}
+.link{
+    padding-top: 20px;
+}
+
